@@ -18,8 +18,8 @@
           <Title id="_IDGenTitle" text="{i18n>titulo_en}" level="H1"/>
         </contentMiddle>
         <contentRight>
-          <Label id="_IDGenLabel" design="Bold" text="{i18n>idioma_en}" showColon="true"/>
-          <Switch id="_IDGenSwitch" state="true" change="onChangeLanguage" customTextOn="EN" customTextOff="PT" type="Default"/>
+          <Label id="_IDGenLabel" design="Bold" text="{i18n>idioma_en}" showColon="true" visible="false"/>
+          <Switch id="_IDGenSwitch" state="true" change="onChangeLanguage" customTextOn="EN" customTextOff="PT" type="Default" visible="false"/>
         </contentRight>
       </Bar>
     </customHeader>
