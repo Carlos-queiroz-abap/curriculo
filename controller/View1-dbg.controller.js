@@ -9,7 +9,8 @@ sap.ui.define(
     return Controller.extend("curriculo.project1.controller.View1", {
       onInit: function () {
         this.byId("_IDGenSwitch").setState(true);
-        this.onChangeLanguage({ getParameter: () => true });
+        this.onChangeLanguage({ getParameter: () => false });
+        
       },
 
       onChangeLanguage: function (oEvent) {
@@ -140,17 +141,22 @@ Active participation in the SAP S/4HANA implementation project, focused on devel
           );
 
           this.byId("_IDGenText3").setText(
-            `• Atuação em projetos como Cockpit de Conciliação Contábil e extratores de migração de sistemas
+            `• Desenvolvimentos como:
+            -Cockpit de Conciliação Contábil (ECC)
+            -extratores de migração de sistemas (ECC)
+            -Conversão de Ordens planejadas para Ordens de produção (S/4Hana)
 • Desenvolvimento ABAP com ALV, Smartforms (PDFs), ABAP OO, Module Pool, SAPScript
 • Criação de visões e clusters de atualização
 • Criação de queries via Eclipse
-• Implementação de BAPIs, BADIs, BTEs, User Exits, Enhancements e Proxy PI
+• Implementação de BAPIs, BADIs, BTEs, User Exits, Enhancements
 • SELECTs avançados com joins e análise de performance de programas
 • Criação de CDS Views e Apps Fiori consumindo CDS
 • Fiorização de transações padrão para Apps Fiori
-• Conhecimento das tabelas: FI, SD, MM, PP, EWM e Guepardo Tax
+• Conhecimento de tabelas: FI, SD, MM, PP, EWM e Guepardo Tax
 • Debug e ajustes em processos padrão SAP
-• Desenvolvimento de aplicativos Fiori Freestyle e Fiori Elements`
+• Desenvolvimento de aplicativos Fiori Freestyle e Fiori Elements
+• Extensões em aplicações Fiori Standards (Adaptation Project)
+• Campos personalizados em CDS Standards assim como CDS personalizadas`
           );
 
           this.byId("_IDGenText5").setText(
@@ -164,7 +170,7 @@ Mobilidade:          Nacional e Internacional
 ────────────────────────────────────────────────────────────────────
 Estado Civil:        Solteiro
 ────────────────────────────────────────────────────────────────────
-Idiomas:             Português – Nativo | Inglês – Intermediário B2 (cursando até C2)
+Idiomas:             Português – Nativo | Inglês – Intermediário B2
 ────────────────────────────────────────────────────────────────────`
           );
 
@@ -198,7 +204,7 @@ Implementação de solução para análise, conciliação e compensação de con
 
 Empresa:          Kyly
 ────────────────────────────────────────────────────────────────────
-Duração:           Em andamento (atual)
+Duração:           desde 09/2025 Em andamento (atual)
 ────────────────────────────────────────────────────────────────────
 Ramo de Atuação:   Têxtil
 ────────────────────────────────────────────────────────────────────
