@@ -137,14 +137,17 @@ Active participation in the SAP S/4HANA implementation project, focused on devel
           this.byId("_IDGenGroupElement2").setLabel("Informações Gerais");
 
           this.byId("_IDGenText2").setText(
-            `Desenvolvedor SAP ABAP & Fiori com ${years} ano${years !== 1 ? "s" : ""} e ${months} mês${months !== 1 ? "es" : ""} de experiência prática em ambientes SAP ECC e S/4HANA. Histórico comprovado em AMS, projetos de melhoria e ciclos completos de implementação — do levantamento de requisitos ao suporte pós go-live.`
+            `Desenvolvedor SAP ABAP & Fiori com ${years} ano${years !== 1 ? "s" : ""} e ${months} mês${months !== 1 ? "es" : ""} de experiência prática em ambientes SAP ECC e S/4HANA. Histórico comprovado em AMS, projetos de melhoria e ciclos completos de implementação — do levantamento de requisitos ao suporte pós go-live.
+            
+            PRINCIPAIS HABILIDADES
+Facilidade de comunicação, análise e entendimento de requisitos, raciocínio lógico e resolução de problemas, organização e atenção aos detalhes. Facilidade para trabalhar em equipe, interação com áreas funcionais e entendimento das necessidades do negócio. Comprometimento com a qualidade das entregas, foco em resultados, aprendizado contínuo e adaptação a novos desafios. Habilidade para análise de processos, identificação de melhorias e busca por soluções eficientes para o negócio.`
           );
 
           this.byId("_IDGenText3").setText(
             `• Desenvolvimentos como:
             -Cockpit de Conciliação Contábil (ECC)
             -extratores de migração de sistemas (ECC)
-            -Conversão de Ordens planejadas para Ordens de produção (S/4Hana)
+            -Conversão de Ordens planejadas para Ordens de produção específico para processos de tinturaria (S/4Hana)
 • Desenvolvimento ABAP com ALV, Smartforms (PDFs), ABAP OO, Module Pool, SAPScript
 • Criação de visões e clusters de atualização
 • Criação de queries via Eclipse
@@ -206,7 +209,7 @@ Empresa:          Kyly
 ────────────────────────────────────────────────────────────────────
 Duração:           desde 09/2025 Em andamento (atual)
 ────────────────────────────────────────────────────────────────────
-Ramo de Atuação:   Têxtil
+Ramo de Atuação:   Varejo com produção textil e manufatura
 ────────────────────────────────────────────────────────────────────
 Projeto:           Implementação SAP S/4HANA
 ────────────────────────────────────────────────────────────────────
